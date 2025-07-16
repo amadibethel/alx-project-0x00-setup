@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Card from "@/components/Card";
 
 const Landing: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-xl font-extralight">Landing Page</h1>
+    <div className="flex justify-center items-center min-h-screen bg-gray-50">
+      <Card />
     </div>
   );
 };
