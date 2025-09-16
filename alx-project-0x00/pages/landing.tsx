@@ -10,7 +10,7 @@ const Landing: React.FC = () => {
       <div className="flex flex-wrap justify-center gap-4 mb-10">
         <Button title="Small Rounded-sm" styles="text-sm rounded-sm bg-blue-500" />
         <Button title="Medium Rounded-md" styles="text-base rounded-md bg-green-500" />
-        <Button title="Large Rounded-full" styles="text-lg rounded-full bg-purple-500 px-6 py-3" />
+        <Button title="Large Rounded-lg" styles="text-lg rounded-lg bg-purple-500 px-6 py-3" />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
