@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ALX Project 0x00 Setup
 
-## Getting Started
+## Objective
 
-First, run the development server:
+This project demonstrates how to create a Next.js application using CLI tools like `npx` and `create-next-app`. The goal is to get familiar with initializing a project with TypeScript, ESLint, Tailwind CSS, and import aliases.
+
+---
+
+## Project Setup Instructions
+
+### 1. Open VS Code & Terminal
+
+- Launch a new Visual Studio Code instance.
+- Open the terminal: `Terminal -> New Terminal`.
+
+### 2. Navigate to Project Directory
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+cd path/to/your/projects
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Create Next.js Project with TypeScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Run the command:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npx create-next-app@latest alx-project-0x00 --typescript
 
-## Learn More
+### 4. Select Options During Setup
 
-To learn more about Next.js, take a look at the following resources:
+When prompted, choose:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Yes for:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ESLint
 
-## Deploy on Vercel
+Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Import alias
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+No for:
+
+/src directory
+
+App Router
+
+### 5. Start the Development Server
+
+Navigate into the project folder and run:
+
+cd alx-project-0x00
+npm run dev -- -p 3000
+
+Repository Information
+
+GitHub Repository: alx-project-0x00-setup
+
+Project Directory: alx-project-0x00
+
+Key File: README.md (contains setup instructions)
+
+Notes
+
+This setup ensures your project is ready for scalable development with TypeScript, ESLint, and Tailwind CSS.
+
+Import aliases help organize and simplify module imports.
+
+
+
